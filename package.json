@@ -1,0 +1,33 @@
+{
+  "name": "course-checker-bot",
+  "version": "1.0.0",
+  "description": "This bot used to help students to know the seats capacity of DAL MACS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "DEBUG=app:*  nodemon index.js",
+    "start": "micro-bot"
+  },
+  "keywords": [
+    "telegram-bot",
+    "bot",
+    "DAL",
+    "course-bot"
+  ],
+  "author": "Rahul Kodumuru",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0"
+  },
+  "dependencies": {
+    "debug": "^4.3.1",
+    "dotenv": "^10.0.0",
+    "micro-bot": "^2.5.3",
+    "puppeteer": "^10.0.0",
+    "telegraf": "^4.3.0"
+  }
+}
