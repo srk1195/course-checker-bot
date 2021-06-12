@@ -8,7 +8,6 @@ let bot;
 debug(`App runninng on Environment: ${process.env.NODE_ENV}`);
 
 if (process.env.NODE_ENV === 'DEVELOPMENT') {
-  console.log('In Dev Environment!');
   bot = new Telegraf(process.env.BOT_TOKEN);
   puppeteerConfig = {
     executablePath: process.env.BROWSER,
