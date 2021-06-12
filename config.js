@@ -1,6 +1,6 @@
 const { Composer } = require('micro-bot');
 const { Telegraf } = require('telegraf');
-const debug = require('debug')('app:config:  :hammer_and_wrench:   ');
+const debug = require('debug')('app:config:');
 
 let puppeteerConfig = {};
 let bot;
